@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&family=Open+Sans:wght@300..800&display=swap');
+
+button { background-color: transparent;}
+
+
+body, main section:first-child p { font-family: 'Open Sans', sans-serif; color: #15163D; background-color: #F8F8F8;}
+h1 { font-size: 64px; }
+
+ p, ul:last-of-type {  color: #71718D;}
+
+h2, h1 {
+
+    font-family: 'Kiwi Maru', serif;
+    font-weight: 500;
+
+}
+
+h2 { font-size: 44px;  }
+article h2 { font-size: 24px;}
+
+
+
+
+article { background-color: white; height: 40vh;  }
+
+footer { height: 40vh; }
+footer > div:first-child { height: 100%;}
+.border-top { border-color: #0A2FF1;}
+
+
+p , h3,ul   {
+
+
+    font-size: 18px;
+    line-height: 180%;
+
+}
+
+h3 {
+
+    color: #0A2FF1;
+    font-weight: 600;
+    line-height: 130%;
+   
+ 
+ }
+
+
+nav a.active , nav .nav-link:hover{ color: gray !important; text-decoration: underline;}
+
+ nav .nav-link {color: black !important;}
+
+
+
+ footer li:first-child { font-weight: 600;}
+
+@media (max-width: 768px){
+
+footer { height: auto;}
+
+
+
+}
+
+
+
+
+
